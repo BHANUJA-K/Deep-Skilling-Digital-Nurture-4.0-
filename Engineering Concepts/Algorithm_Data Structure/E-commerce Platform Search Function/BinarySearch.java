@@ -19,7 +19,6 @@ public class BinarySearch {
         return null;
     }
 
-    // Utility method to sort products by productName
     public static void sortProductsByName(Product[] products) {
         Arrays.sort(products, Comparator.comparing(p -> p.productName.toLowerCase()));
     }
